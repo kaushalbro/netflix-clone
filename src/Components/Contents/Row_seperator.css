@@ -1,0 +1,5 @@
+.row_seperator{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
