@@ -5,7 +5,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../Assets/featrured_img_1.jpg");
+  // background-image: url("../../Assets/featrured_img_1.jpg");
+  .bg_img{
+    // z-index: ;
+    height: 100vh;
+    width: 100%;
+    img{
+      width: 100%;
+      height: 100vh;
+    }
+  }
   .main_content_row_1_blur {
     position: absolute;
     height: 100vh;
