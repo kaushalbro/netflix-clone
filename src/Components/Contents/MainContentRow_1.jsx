@@ -11,7 +11,7 @@ export default function MainContentRow_1() {
       </div>
       <div className="main_content_row_1_blur"></div>
       <div className="content">
-        <h1>Uinlimited movies, TV shows, and more</h1>
+        <h1>Unlimited movies, TV shows, and more</h1>
         <h3>Plans now start at USD2.99/month. </h3>
          <NewRegisterForm />
       </div>

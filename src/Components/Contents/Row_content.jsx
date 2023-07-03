@@ -11,9 +11,7 @@ function Row_content(props) {
   return (
     <div className="row_content">
       <div className={`col_1 ${div_css}`}>
-        <div></div>
         <img className="col_1_img" src={col_1_img_path} alt="" />
-        <img className="col_1_img1" src="../../Assets/featured_img_1.jpg" alt="" />
     hello
         {/* if component is used for download show content */}
         {props.name === "download_content" && (

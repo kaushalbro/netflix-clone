@@ -1,3 +1,4 @@
+
 .row_content {
     background-color: black;
     padding: 0px 10%;
@@ -40,8 +41,8 @@
 
         .col_1_img {
             object-fit: cover;
-            width: 80%;
-            height: 80%;
+            width: 90%;
+            height: 90%;
         }
     }
 
@@ -82,12 +83,12 @@
     position: absolute;
     height: 90px;
     border-radius: 10px;
-    width: 53%;
+    width: 65%;
     background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(109, 107, 107);
+    outline: 2px solid rgb(109, 107, 107);
     margin-top: 45%;
     align-self: center;
-    // margin-left:8%;
+    margin-left:-6%;
     display: flex;
     align-items: center;
     color: white;
@@ -95,11 +96,11 @@
 
     @media (max-width: 1050px) {
         margin-top: 220px;
-        width: 60%;
+        width: 80%;
     }
 
     @media (max-width: 900px) {
-        width: 45%;
+        width: 50%;
         margin-top: 180px;
         height: 80px;
     }
@@ -110,9 +111,20 @@
     }
 
     @media (max-width: 680px) {
-        height: 35px;
+        height: 60px;
         width: 50%;
-        margin-top: 130px;
+    }
+
+      @media (max-width: 680px) {
+        height: 60px;
+        width: 50%;
+    }
+    
+    @media (max-width: 400px) {
+        height: 40px;
+        width: 50%;
+        margin-left: -10%;
+        margin-top: 110px;
     }
 
     img {
@@ -139,11 +151,11 @@
             font-size: 11px;
 
             @media (max-width: 925px) {
-                font-size: 10px;
+                font-size: 9px;
             }
 
             @media (max-width: 415px) {
-                font-size: 9px;
+                font-size: 8px;
             }
         }
     }
