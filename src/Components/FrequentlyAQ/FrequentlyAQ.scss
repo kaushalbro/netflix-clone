@@ -1,0 +1,30 @@
+.faq_container{
+    width: 100%;
+    color: white;
+}
+.faq_question{
+    padding: 2px 30px;
+    background-color: #2D2D2D;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .show_ans,.close_ans{
+        padding: 10px;
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+        font-weight: 900;
+    }
+}
+.faq_answer{
+    padding: 2px 30px;
+    background-color: #2D2D2D;
+    margin-bottom: 8px;
+    transition: transform 250ms;
+    transition-timing-function: linear;    p{
+        font-size: 25px;
+        font-size: 600;
+    }
+}

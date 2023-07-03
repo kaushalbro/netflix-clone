@@ -1,6 +1,6 @@
 import React from "react";
 import "./MainContentRow_1.scss";
-import featured_img from "../../Assets/featured_img_1.jpg"
+import featured_img from "../../Assets/featured_img_1.jpg";
 
 export default function MainContentRow_1() {
   return (
