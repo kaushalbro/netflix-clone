@@ -15,6 +15,7 @@ function App() {
     <div className="app">
       <Header />
       <MainContent />
+      
       <div className="frequently_asked_question_container">
         <h1>Frequently Asked Questions</h1>
         {faq.map((s) => (
@@ -24,6 +25,7 @@ function App() {
           <NewRegisterForm />
         </div>
       </div>
+
       <Row_seperator/>
       <Footer />
     </div>
