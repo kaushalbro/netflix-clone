@@ -8,8 +8,8 @@ function FrequentlyAQ(props) {
     <div className="faq_container">
       <div className="faq_question" onClick={() => setToggle(!toggle)}>
         <p>{props.question}</p>
-        {(toggle && <AddIcon className="show_ans" />) || (
-          <CloseIcon className="close_ans" />
+        {(toggle && <CloseIcon className="close_ans" />) || (
+          <AddIcon className="show_ans" />
         )}
       </div>
       {toggle && (
