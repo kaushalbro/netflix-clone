@@ -9,9 +9,12 @@ function Row_content(props) {
   const div_css = props.css;
 
   return (
-    <div className="MainContentRow_3_container">
+    <div className="row_content">
       <div className={`col_1 ${div_css}`}>
+        <div></div>
         <img className="col_1_img" src={col_1_img_path} alt="" />
+        <img className="col_1_img1" src="../../Assets/featured_img_1.jpg" alt="" />
+    hello
         {/* if component is used for download show content */}
         {props.name === "download_content" && (
           //   <div className="download_show_container">
