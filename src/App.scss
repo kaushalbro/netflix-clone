@@ -3,7 +3,6 @@
 } */
 
 a {
-  color: white;
   text-decoration: none;
 }
 
@@ -13,12 +12,13 @@ li {
 
 .frequently_asked_question_container {
   background-color: black;
+  color: white;
   padding: 1% 12%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  
   h1 {
     color: white;
     font-weight: 900;
@@ -31,7 +31,15 @@ li {
     h1 {
       font-size: 30px;
     }
+    padding: 1% 5%;
+  }
 
-    padding: 1% 3%;
+  .registerForm {
+    padding: 50px;
+    
+  @media (max-width:740px) {
+
+    padding: 30px;
+  }
   }
 }

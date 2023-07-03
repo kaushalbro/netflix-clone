@@ -22,10 +22,6 @@ function FrequentlyAQ(props) {
          <br />
          <br />
         {props.answer.split(".").slice(1)}
-
-
-
-          
           </p>
         </div>
       )}
