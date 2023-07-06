@@ -8,6 +8,9 @@ import Row_seperator from "./Row_seperator";
 export default function MainContent() {
   return (
     <>
+    <div className="git_link"> 
+              <a href="http://www.github.com/kaushalbro/netflix-clone"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" /></a>
+    </div>
       <MainContentRow_1 />
       <Row_seperator />
       <Row_content
