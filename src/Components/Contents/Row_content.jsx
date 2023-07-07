@@ -14,7 +14,6 @@ function Row_content(props) {
         <img className="col_1_img" src={col_1_img_path} alt="" />
         {/* if component is used for download show content */}
         {props.name === "download_content" && (
-          //   <div className="download_show_container">
           <div className="download_shows">
             <img
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
